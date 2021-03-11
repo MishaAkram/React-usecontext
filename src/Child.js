@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import './App.css';
 import ValueContext from './ValueContext';
 
-function Child() {
+function Child(props) {
   let value=useContext(ValueContext);
   return (
     <div className="App">
-      Child value ={value}
+      Child value ={props.value}
      
     </div>
   );

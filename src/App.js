@@ -8,7 +8,7 @@ function App() {
     <ValueContext.Provider value={value}>
 
     <div className="App">
-     <Parent>
+     <Parent value={value}>
        
      </Parent>
     </div>
