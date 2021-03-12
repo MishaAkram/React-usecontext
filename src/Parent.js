@@ -1,5 +1,6 @@
 import React from 'react';
 import Child from './Child';
+import Child2 from './Child2';
 
 function Parent(props) {
   
@@ -7,6 +8,7 @@ function Parent(props) {
     <div >
       Parent
      <Child value={props.value}></Child>
+     <Child2/>
     </div>
   );
 }
